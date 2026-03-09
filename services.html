@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خدماتنا - Loving Homes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: #f0f4ff;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    nav {
+      background: #1a2e6b;
+      padding: 16px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .logo { color: white; font-size: 1.3rem; font-weight: 700; }
+    .nav-links { display: flex; gap: 12px; flex-wrap: wrap; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      border: 1px solid white;
+      padding: 7px 18px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px 30px;
+    }
+    .hero h2 { font-size: 2rem; color: #1a2e6b; margin-bottom: 8px; }
+    .hero p  { color: #666; font-size: 1rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1000px;
+      margin: 30px auto 30px;
+      padding: 0 30px;
+    }
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 24px 20px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+      border-top: 4px solid #1a2e6b;
+    }
+    .card h3 { font-size: 1rem; margin-bottom: 8px; color: #1a2e6b; }
+    .card p  { font-size: 0.85rem; color: #666; line-height: 1.7; }
+    footer { background: #1a2e6b; color: rgba(255,255,255,0.6); text-align: center; padding: 20px; font-size: 0.85rem; }
+    @media(max-width: 700px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Loving Homes</div>
+        <div class="nav-links">
+      <a href="index.html">الرئيسية</a>
+      <a href="blog.html">المدونة</a>
+      <a href="about.html">من نحن</a>
+      <a href="contact.html">اتصل بنا</a>
+      <a href="services.html">الخدمات</a>
+      <a href="packages.html">الحزم</a>
+      <a href="booking.html">الحجز</a>
+      <a href="faq.html">الأسئلة الشائعة</a>
+      <a href="gallery.html">معرض الصور</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h2>خدماتنا</h2>
+    <p>نقدم أفضل رعاية لكلبك في مكان واحد</p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>الاستحمام والتنظيف</h3>
+      <p>خدمة استحمام كاملة بمنتجات آمنة تشمل تنظيف الأذنين وقص الأظافر</p>
+    </div>
+    <div class="card">
+      <h3>الحلاقة والتزيين</h3>
+      <p>تصفيف شعر الكلب على يد متخصصين محترفين بأحدث الأساليب</p>
+    </div>
+    <div class="card">
+      <h3>الإقامة والفندقة</h3>
+      <p>غرف مريحة مع رعاية على مدار 24 ساعة وخدمات بيطرية فورية</p>
+    </div>
+    <div class="card">
+      <h3>التدريب والسلوك</h3>
+      <p>برامج تدريبية لتعليم الأوامر الأساسية مع مدربين معتمدين</p>
+    </div>
+    <div class="card">
+      <h3>خدمة التوصيل</h3>
+      <p>توصيل آمن من وإلى منزلك بسيارات مجهزة لراحة كلبك</p>
+    </div>
+    <div class="card">
+      <h3>الرعاية البيطرية</h3>
+      <p>فحوصات دورية وتطعيمات ومتابعة صحية متاحة طوال اليوم</p>
+    </div>
+  </div>
+
+  <footer><p>&copy; 2025 Loving Homes — جميع الحقوق محفوظة</p></footer>
+
+</body>
+</html>

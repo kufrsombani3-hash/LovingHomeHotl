@@ -1,0 +1,223 @@
+/* إعدادات عامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(to bottom, #f0f9ff, #ffffff);
+    color: #333;
+    line-height: 1.8;
+    direction: rtl;
+}
+
+/* الهيدر */
+header {
+    background: linear-gradient(to left, #00b4db, #0083b0);
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* روابط التنقل */
+nav a {
+    display: inline-block;
+    margin: 8px;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: white;
+    background: #ff914d;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: #ff6f00;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* العناوين */
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 42px;
+    color: #0083b0;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+}
+
+/* الفقرة */
+p {
+    width: 75%;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* الصورة */
+img {
+    display: block;
+    margin: 30px auto;
+    width: 65%;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: transform 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+/* الخريطة */
+iframe {
+    display: block;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* خط فاصل */
+hr {
+    width: 60%;
+    margin: 40px auto;
+    border: none;
+    height: 3px;
+    background: linear-gradient(to right, #00b4db, #ff914d);
+    border-radius: 5px;
+}
+
+/* الفوتر */
+footer {
+    background: #0083b0;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+/* تأثير دخول ناعم */
+body {
+    animation: fadeIn 1.2s ease-in;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* تحسين للموبايل */
+@media (max-width: 768px) {
+    p {
+        width: 90%;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    iframe {
+        width: 95%;
+        height: 300px;
+    }
+}
+/* رابط الرجوع للصفحة الرئيسية */
+body > a {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background: #0083b0;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+body > a:hover {
+    background: #00b4db;
+    transform: translateY(-3px);
+}
+
+/* تنسيق عناوين البكجات */
+ol {
+    list-style: none;
+    text-align: center;
+    margin-top: 40px;
+}
+
+ol li {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0083b0;
+    margin-bottom: 15px;
+}
+
+/* صندوق تفاصيل البكج */
+u {
+    display: block;
+    width: 70%;
+    margin: 0 auto 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+u:hover {
+    transform: translateY(-5px);
+}
+
+/* عناصر القائمة داخل البكج */
+u li {
+    list-style: none;
+    padding: 8px 0;
+    font-size: 17px;
+    border-bottom: 1px solid #eee;
+}
+
+u li:last-child {
+    border-bottom: none;
+    font-weight: bold;
+    color: #ff6f00;
+    font-size: 20px;
+}
+
+/* تحسين للموبايل */
+@media (max-width: 768px) {
+    u {
+        width: 90%;
+    }
+}
+.slideshow-container {
+    max-width: 700px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.slideshow-container img {
+    width: 100%;
+    display: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+footer {
+  background: #1a2e6b;
+  color: rgba(255,255,255,0.6);
+  text-align: center;
+  padding: 12px;
+  font-size: 0.75rem;
+}

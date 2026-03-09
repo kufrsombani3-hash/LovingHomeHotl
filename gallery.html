@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>معرض الصور - Loving Homes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Cairo', sans-serif; background: #f0f4ff; color: #222; }
+    nav { background: #1a2e6b; padding: 16px 32px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+    .logo { color: white; font-size: 1.3rem; font-weight: 700; }
+    .nav-links { display: flex; gap: 12px; flex-wrap: wrap; }
+    nav a { color: white; text-decoration: none; border: 1px solid white; padding: 7px 18px; border-radius: 20px; font-size: 0.85rem; transition: background 0.2s; }
+    nav a:hover { background: rgba(255,255,255,0.15); }
+    .hero { text-align: center; padding: 50px 20px 30px; }
+    .hero h2 { font-size: 2rem; color: #1a2e6b; margin-bottom: 8px; }
+    .hero p { color: #666; }
+    .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; max-width: 1000px; margin: 30px auto 60px; padding: 0 30px; }
+    .gallery-item { border-radius: 14px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.1); aspect-ratio: 1; background: #dde4f5; position: relative; }
+    .gallery-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s; }
+    .gallery-item:hover img { transform: scale(1.05); }
+    .gallery-item .label { position: absolute; bottom: 0; right: 0; left: 0; background: linear-gradient(transparent, rgba(26,46,107,0.8)); color: white; padding: 20px 14px 12px; font-size: 0.85rem; font-weight: 700; }
+    footer { background: #1a2e6b; color: rgba(255,255,255,0.6); text-align: center; padding: 20px; font-size: 0.85rem; }
+    @media(max-width: 700px) { .gallery { grid-template-columns: 1fr 1fr; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Loving Homes</div>
+    <div class="nav-links">
+      <a href="index.html">الرئيسية</a>
+      <a href="blog.html">المدونة</a>
+      <a href="about.html">من نحن</a>
+      <a href="contact.html">اتصل بنا</a>
+      <a href="services.html">الخدمات</a>
+      <a href="packages.html">الحزم</a>
+      <a href="booking.html">الحجز</a>
+      <a href="faq.html">الأسئلة الشائعة</a>
+      <a href="gallery.html">معرض الصور</a>
+    </div>
+  </nav>
+  <div class="hero">
+    <h2>معرض الصور</h2>
+    <p>لحظات جميلة من Loving Homes</p>
+  </div>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="الكلاب 4.jpg" alt="الموقع">
+      <div class="label">المنتجع</div>
+    </div>
+    <div class="gallery-item">
+      <img src="الكلاب 5.jpg" alt="كلاب">
+      <div class="label">كلابنا السعيدة</div>
+    </div>
+    <div class="gallery-item">
+      <img src="الكلاب 6.jpg" alt="كلاب">
+      <div class="label">وقت اللعب</div>
+    </div>
+    <div class="gallery-item">
+      <img src="الكلاب 7.jpg" alt="كلاب">
+      <div class="label">لحظات مميزة</div>
+    </div>
+  </div>
+  <footer><p>&copy; 2025 Loving Homes — جميع الحقوق محفوظة</p></footer>
+</body>
+</html>

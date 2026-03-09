@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اتصل بنا - Loving Homes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Cairo', sans-serif; background: #f0f4ff; color: #222; }
+    nav { background: #1a2e6b; padding: 16px 32px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+    .logo { color: white; font-size: 1.3rem; font-weight: 700; }
+    .nav-links { display: flex; gap: 12px; flex-wrap: wrap; }
+    nav a { color: white; text-decoration: none; border: 1px solid white; padding: 7px 18px; border-radius: 20px; font-size: 0.85rem; transition: background 0.2s; }
+    nav a:hover { background: rgba(255,255,255,0.15); }
+    .hero { text-align: center; padding: 50px 20px 30px; }
+    .hero h2 { font-size: 2rem; color: #1a2e6b; margin-bottom: 8px; }
+    .hero p { color: #666; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 860px; margin: 30px auto 40px; padding: 0 30px; }
+    .card { background: white; border-radius: 14px; padding: 28px 20px; text-align: center; box-shadow: 0 4px 16px rgba(0,0,0,0.07); border-top: 4px solid #1a2e6b; }
+    .card h3 { color: #1a2e6b; margin-bottom: 10px; }
+    .card p { font-size: 0.88rem; color: #666; line-height: 1.7; }
+    .form-box { background: white; border-radius: 14px; padding: 30px 36px; max-width: 600px; margin: 0 auto 20px; box-shadow: 0 4px 16px rgba(0,0,0,0.07); border-top: 4px solid #1a2e6b; }
+    .form-box h3 { color: #1a2e6b; margin-bottom: 20px; }
+    .form-box input, .form-box textarea {
+      width: 100%; padding: 10px 14px; margin-bottom: 14px;
+      border: 1px solid #ddd; border-radius: 10px;
+      font-family: 'Cairo', sans-serif; font-size: 0.9rem; outline: none;
+    }
+    .form-box textarea { height: 100px; resize: none; }
+    .form-box button { background: #1a2e6b; color: white; border: none; padding: 12px 30px; border-radius: 20px; font-family: 'Cairo', sans-serif; font-size: 0.95rem; cursor: pointer; width: 100%; }
+    .form-box button:hover { background: #243d8f; }
+    footer { background: #1a2e6b; color: rgba(255,255,255,0.6); text-align: center; padding: 20px; font-size: 0.85rem; }
+    @media(max-width: 700px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Loving Homes</div>
+        <div class="nav-links">
+      <a href="index.html">الرئيسية</a>
+      <a href="blog.html">المدونة</a>
+      <a href="about.html">من نحن</a>
+      <a href="contact.html">اتصل بنا</a>
+      <a href="services.html">الخدمات</a>
+      <a href="packages.html">الحزم</a>
+      <a href="booking.html">الحجز</a>
+      <a href="faq.html">الأسئلة الشائعة</a>
+      <a href="gallery.html">معرض الصور</a>
+    </div>
+  </nav>
+  <div class="hero">
+    <h2>اتصل بنا</h2>
+    <p>نحن هنا للإجابة على جميع استفساراتك</p>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>الهاتف</h3><p>+962 788033867</p></div>
+    <div class="card"><h3>البريد الإلكتروني</h3><p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="88e1e6eee7c8e4e7fee1e6efe0e7e5edfba6ebe7e5">[yazeeda826@gmail.com]</a></p></div>
+    <div class="card"><h3>ساعات العمل</h3><p>يومياً من ٨ صباحاً حتى ١٠ مساءً</p></div>
+  </div>
+  <div class="form-box">
+    <h3>أرسل لنا رسالة</h3>
+    <input type="text" placeholder="اسمك الكريم">
+    <input type="email" placeholder="بريدك الإلكتروني">
+    <textarea placeholder="رسالتك..."></textarea>
+    <button>إرسال</</button>
+  </div>
+  <footer><p>&copy; 2025 Loving Homes — جميع الحقوق محفوظة</p></footer>
+</body>
+</html>
